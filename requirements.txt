@@ -4,6 +4,7 @@ streamlit
 setuptools
 wheel
 astropy
+kaleido
 
 
 
