@@ -1,8 +1,9 @@
 pandas
 plotly
 streamlit
-setuptools==68.0.0
+setuptools
 wheel
-astropy==5.3.4
+astropy
+
 
 
