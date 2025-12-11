@@ -126,7 +126,7 @@ def figura(bruto,periodograma,picos_calc):
     )'''
     fig.update_layout(template="plotly_white")
 
-    fig.write_image("figura.svg")
+    fig.write_image("figura.png")
 
     
     return fig
