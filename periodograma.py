@@ -1,4 +1,4 @@
-import streamlit as st
+arioimport streamlit as st
 import func
 from PIL import Image
 import plotly.io as pio
