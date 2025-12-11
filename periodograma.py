@@ -14,10 +14,10 @@ if uploaded_file is not None:
         data=func.dados(uploaded_file)
         fig=func.figura(data[0],data[1],data[2])
 
-        t='''with open("figura.svg", "r", encoding="utf-8") as f:
+        with open("figura.svg", "r", encoding="utf-8") as f:
             svg = f.read()
 
-            st.markdown(svg, unsafe_allow_html=True)'''
+            st.markdown(svg, unsafe_allow_html=True)
         
         
 
