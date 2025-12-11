@@ -7,6 +7,7 @@ pio.templates.default = None
 
 
 #comentario meu
+#asd
 uploaded_file = st.file_uploader("Arraste seu arquivo FITS aqui", type=["fits"])
 if uploaded_file is not None:
     if st.button("Gerar gráfico"):
